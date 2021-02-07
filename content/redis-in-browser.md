@@ -12,7 +12,9 @@ but basic stuff works pretty well.
 You can try it yourself, autocomplete commands work with the TAB key
 (Modern browsers with asm.js support are required for speed).
 <br/>
-<input id="run" type="button" value="Run redis database"/>
+<p>
+  <input id="run" type="button" value="Run redis database"/>
+</p>
 <small id="status">about 700kb scripts will be downloaded</small>
 
 <div class="terminal" id="output" rows="8">
@@ -326,9 +328,9 @@ function jquery_loaded() {
   $('<link>')
     .appendTo('head')
     .attr({type : 'text/css', rel : 'stylesheet'})
-    .attr('href', '//cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.14.1/css/jquery.terminal.min.css');
+    .attr('href', '//cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.21.0/css/jquery.terminal.min.css');
 
-  loadScript('//cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.14.1/js/jquery.terminal.min.js', function() {
+  loadScript('//cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.21.0/js/jquery.terminal.min.js', function() {
       status('get redis-server');
       $('#output').terminal(function(command, term) {
         if (command !== '') {
