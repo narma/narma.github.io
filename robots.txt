@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://narma.github.io/sitemap.xml
