@@ -23,4 +23,6 @@ taxonomies = "off"
 anchors = "on"
 
 [extra]
-# Put all your custom variables here
+github = "narmaru"
+twitter = "narmaru"
+
