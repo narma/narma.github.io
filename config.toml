@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://narma.github.io"
 
-title = "Alzo"
+title = "Sergey Rublev"
 description = "λ"
 default_language = "en"
 generate_rss = true
@@ -22,7 +22,7 @@ paths = "on"
 taxonomies = "off"
 anchors = "on"
 
-[extra]
+[extra.social]
 github = "narmaru"
 twitter = "narmaru"
 
